@@ -39,6 +39,8 @@ from ultralytics import YOLO
 from google.colab.patches import cv2_imshow
 
 model = YOLO('yolov8n.pt')
+
+
 cap = cv2.VideoCapture("videoplayback.mp4")
 
 while cap.isOpened():
